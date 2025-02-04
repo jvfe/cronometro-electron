@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+/* Timer Display */
+#timeDisplay {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  min-width: 150px;
+}
+
+/* Buttons */
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Green Start Button */
+#startStopBtn {
+  background-color: green;
+  color: white;
+}
+
+#startStopBtn:hover {
+  background-color: darkgreen;
+}
+
+/* Red Stop Button */
+.stop {
+  background-color: red !important;
+}
+
+.stop:hover {
+  background-color: darkred !important;
+}
+
+/* Reset Button */
+#resetBtn {
+  background-color: orange;
+  color: white;
+}
+
+#resetBtn:hover {
+  background-color: darkorange;
+}
+
+/* Save Button */
+#saveBtn {
+  background-color: blue;
+  color: white;
+}
+
+#saveBtn:hover {
+  background-color: darkblue;
+}
+
+/* Clear All Button */
+#clearTimesBtn {
+  background-color: gray;
+  color: white;
+}
+
+#clearTimesBtn:hover {
+  background-color: darkgray;
+}
+
+/* Input Field */
+#nameInput {
+  font-size: 1.2em;
+  padding: 8px;
+  margin-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* List of Times */
+#timesList {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+}
+
+#timesList li {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+

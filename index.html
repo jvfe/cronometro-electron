@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concursômetro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Concursômetro</h1>
+    <div class="timer">
+      <p id="timeDisplay">00:00:00</p>
+      <button id="startStopBtn">Iniciar</button>
+      <button id="resetBtn">Reiniciar</button>
+    </div>
+    <div class="save">
+      <input type="text" id="nameInput" placeholder="Nomeie o tempo">
+      <button id="saveBtn">Salvar Horário</button>
+    </div>
+    <div class="previous-times">
+      <h2>Tempos Anteriores</h2>
+      <ul id="timesList"></ul>
+      <button id="clearTimesBtn">Limpar Horários</button>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
+
