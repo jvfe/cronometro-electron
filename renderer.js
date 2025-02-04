@@ -80,7 +80,7 @@ ipcRenderer.on('load-times', (event, times) => {
 const clearTimesBtn = document.getElementById('clearTimesBtn');
 
 clearTimesBtn.addEventListener('click', () => {
-  if (confirm("Are you sure you want to clear all saved times?")) {
+  if (confirm("Deseja realmente apagar todos os tempos salvos?")) {
     ipcRenderer.send('clear-times');
     setTimeout(() => {
       nameInput.focus(); // Ensure input remains active
